@@ -19,7 +19,7 @@ class _UploadButtonExampleState extends State<UploadButtonExample>
 
   final Offset uploadOffset = Offset.zero;
   final Offset uploadingOffset = const Offset(0, 50);
-  final Offset uploadedOffset = const Offset(0, 100);
+  final Offset uploadedOffset = const Offset(0, 110);
   final slideCurve = Curves.elasticOut;
 
   late AnimationController controller;
@@ -38,7 +38,7 @@ class _UploadButtonExampleState extends State<UploadButtonExample>
     );
     slideController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 700),
+      duration: const Duration(milliseconds: 1000),
     );
 
     progressAnimation = Tween<double>(begin: 0, end: 1)
