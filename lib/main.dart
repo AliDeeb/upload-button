@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:upload_button/example/upload_button_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,6 +29,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return const Scaffold(
+      body: Center(child: UploadButtonExample()),
+    );
   }
 }
