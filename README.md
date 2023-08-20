@@ -1,9 +1,10 @@
 # Upload button
 Upload button is a flutter widget that presents a button with a progress drawn as an arc around it.
 
-https://github.com/AliDeeb/upload-button/assets/47333501/df508453-c815-4488-ac94-945738947a0f
 
 ## Example
+https://github.com/AliDeeb/upload-button/assets/47333501/df508453-c815-4488-ac94-945738947a0f
+
 ```
 UploadButton(
       width: 180,
